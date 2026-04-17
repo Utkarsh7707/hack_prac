@@ -29,6 +29,9 @@ export const Navbar = () => {
             <Link to="/about" className="text-gray-600 hover:text-blue-600 transition">
               About
             </Link>
+            <Link to="/planner" className="text-gray-600 hover:text-blue-600 transition">
+              Trip Planner
+            </Link>
             <Link to="/" className="text-gray-600 hover:text-blue-600 transition">
               Browse Hotels
             </Link>
