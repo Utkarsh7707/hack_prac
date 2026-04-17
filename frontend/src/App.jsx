@@ -7,6 +7,7 @@ import { LoginPage } from './pages/LoginPage'
 import { SignupPage } from './pages/SignupPage'
 import { HomePage } from './pages/HomePage'
 import { AboutPage } from './pages/AboutPage'
+import { PlannerPage } from './pages/PlannerPage'
 import './index.css'
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
             <Routes>
               <Route path="/" element={<HomePage />} />
               <Route path="/about" element={<AboutPage />} />
+              <Route path="/planner" element={<PlannerPage />} />
               <Route path="/login" element={<LoginPage />} />
               <Route path="/signup" element={<SignupPage />} />
               
