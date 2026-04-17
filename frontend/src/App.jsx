@@ -6,6 +6,7 @@ import { Navbar } from './components/Navbar'
 import { LoginPage } from './pages/LoginPage'
 import { SignupPage } from './pages/SignupPage'
 import { HomePage } from './pages/HomePage'
+import { AboutPage } from './pages/AboutPage'
 import './index.css'
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <main className="flex-grow">
             <Routes>
               <Route path="/" element={<HomePage />} />
+              <Route path="/about" element={<AboutPage />} />
               <Route path="/login" element={<LoginPage />} />
               <Route path="/signup" element={<SignupPage />} />
               
